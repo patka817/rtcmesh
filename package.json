@@ -1,4 +1,19 @@
 {
     "name": "@glockis/rtcmesh",
-    "version": "0.1.0"  
+    "version": "0.1.0",
+    "description": "P2P/Mesh-network made easy",
+    "license": "MIT",
+    "repository": "patka817/rtcmesh",
+    "main": "src/rtcmesh.mjs",
+    "keywords": [
+        "webRTC",
+        "npm",
+        "package",
+        "glockis",
+        "p2p",
+        "mesh"
+    ],
+    "dependencies": {
+        "peerjs": "^1.1.0"
+    }
 }

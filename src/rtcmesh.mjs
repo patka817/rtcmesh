@@ -1,5 +1,7 @@
 import Peer from 'peerjs';
 
+module.exports = { Mesh, Events };
+
 const MESH_EVENT_RECIEVED_DATA = 'data';
 const MESH_EVENT_PEER_CONNECTED = 'peer-connected';
 const MESH_EVENT_PEER_DISCONNECTED = 'peer-disconnected';
